@@ -30,7 +30,7 @@ struct Profile {
         do {
             if let json = try JSONSerialization.jsonObject(with: data) as? [String: Any], let body = json["data"] as? [String: Any] {
                 self.fullName = body["fullName"] as? String
-                self.pictureUrl = body["pictureUrl"] as? String
+                self.pictureUrl = body["pictureURL"] as? String
                 self.about = body["about"] as? String
                 self.email = body["email"] as? String
 
