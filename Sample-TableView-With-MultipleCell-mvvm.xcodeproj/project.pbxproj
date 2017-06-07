@@ -20,6 +20,8 @@
 		E16F52291EE8572F00867C7E /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F52271EE8572F00867C7E /* Friend.swift */; };
 		E16F522B1EE8597F00867C7E /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F522A1EE8597F00867C7E /* Attribute.swift */; };
 		E16F522C1EE8597F00867C7E /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F522A1EE8597F00867C7E /* Attribute.swift */; };
+		E16F522F1EE85DCB00867C7E /* TestData.json in Resources */ = {isa = PBXBuildFile; fileRef = E16F522E1EE85DCB00867C7E /* TestData.json */; };
+		E16F52301EE85DCB00867C7E /* TestData.json in Resources */ = {isa = PBXBuildFile; fileRef = E16F522E1EE85DCB00867C7E /* TestData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,7 @@
 		E16F52241EE854E000867C7E /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Profile.swift; path = Models/Profile.swift; sourceTree = "<group>"; };
 		E16F52271EE8572F00867C7E /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Friend.swift; path = Models/Friend.swift; sourceTree = "<group>"; };
 		E16F522A1EE8597F00867C7E /* Attribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Attribute.swift; path = Models/Attribute.swift; sourceTree = "<group>"; };
+		E16F522E1EE85DCB00867C7E /* TestData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = TestData.json; path = Models/TestData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,13 +109,12 @@
 		E16F51F41EE84E5400867C7E /* Sample-TableView-With-MultipleCell-mvvm */ = {
 			isa = PBXGroup;
 			children = (
+				E16F522D1EE85D7200867C7E /* Others */,
 				E16F52231EE8547200867C7E /* Models */,
 				E16F51F51EE84E5400867C7E /* AppDelegate.swift */,
 				E16F51F71EE84E5400867C7E /* ViewController.swift */,
 				E16F51F91EE84E5400867C7E /* Main.storyboard */,
-				E16F51FC1EE84E5400867C7E /* Assets.xcassets */,
 				E16F51FE1EE84E5400867C7E /* LaunchScreen.storyboard */,
-				E16F52011EE84E5400867C7E /* Info.plist */,
 			);
 			path = "Sample-TableView-With-MultipleCell-mvvm";
 			sourceTree = "<group>";
@@ -141,8 +143,18 @@
 				E16F52241EE854E000867C7E /* Profile.swift */,
 				E16F52271EE8572F00867C7E /* Friend.swift */,
 				E16F522A1EE8597F00867C7E /* Attribute.swift */,
+				E16F522E1EE85DCB00867C7E /* TestData.json */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		E16F522D1EE85D7200867C7E /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				E16F51FC1EE84E5400867C7E /* Assets.xcassets */,
+				E16F52011EE84E5400867C7E /* Info.plist */,
+			);
+			name = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +270,7 @@
 				E16F52001EE84E5400867C7E /* LaunchScreen.storyboard in Resources */,
 				E16F51FD1EE84E5400867C7E /* Assets.xcassets in Resources */,
 				E16F51FB1EE84E5400867C7E /* Main.storyboard in Resources */,
+				E16F522F1EE85DCB00867C7E /* TestData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E16F52301EE85DCB00867C7E /* TestData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

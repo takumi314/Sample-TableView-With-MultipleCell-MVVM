@@ -1,0 +1,47 @@
+/* 
+  TestData.json
+  Sample-TableView-With-MultipleCell-mvvm
+
+  Created by NishiokaKohei on 2017/06/08.
+  Copyright © 2017年 Kohey. All rights reserved.
+*/
+
+{
+    "data": {
+        "id": 1,
+        "fullName": "Kohey",
+        "pictureUrl": "tom",
+        "email": "hogehoge@gmail.com",
+        "about": "I like travelling along Tokyo!",
+        "friends": [
+                    {
+                    "name": "Ken",
+                    "pictureURL": "finn"
+                    },
+                    {
+                    "name": "Tom",
+                    "pictureURL": "becky"
+                    },
+                    {
+                    "name": "Sierra",
+                    "pictureURL": "holm"
+                    }
+                    ],
+        "profileAttributes": [
+                              {
+                              "key": "Date of birth",
+                              "value": "November 30, 1835"
+                              },
+                              {
+                              "key": "Gender",
+                              "value": "male"
+                              },
+                              {
+                              "key": "Height",
+                              "value": "180"
+                              }
+                              ]
+    },
+    "error": 0,
+    "message": "Success"
+}
