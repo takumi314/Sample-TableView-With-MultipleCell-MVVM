@@ -16,6 +16,8 @@
 		E16F52161EE84E5400867C7E /* Sample_TableView_With_MultipleCell_mvvmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F52151EE84E5400867C7E /* Sample_TableView_With_MultipleCell_mvvmUITests.swift */; };
 		E16F52251EE854E000867C7E /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F52241EE854E000867C7E /* Profile.swift */; };
 		E16F52261EE854E000867C7E /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F52241EE854E000867C7E /* Profile.swift */; };
+		E16F52281EE8572F00867C7E /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F52271EE8572F00867C7E /* Friend.swift */; };
+		E16F52291EE8572F00867C7E /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F52271EE8572F00867C7E /* Friend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,7 @@
 		E16F52151EE84E5400867C7E /* Sample_TableView_With_MultipleCell_mvvmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_TableView_With_MultipleCell_mvvmUITests.swift; sourceTree = "<group>"; };
 		E16F52171EE84E5400867C7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E16F52241EE854E000867C7E /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Profile.swift; path = Models/Profile.swift; sourceTree = "<group>"; };
+		E16F52271EE8572F00867C7E /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Friend.swift; path = Models/Friend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				E16F52241EE854E000867C7E /* Profile.swift */,
+				E16F52271EE8572F00867C7E /* Friend.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -277,6 +281,7 @@
 				E16F51F81EE84E5400867C7E /* ViewController.swift in Sources */,
 				E16F52251EE854E000867C7E /* Profile.swift in Sources */,
 				E16F51F61EE84E5400867C7E /* AppDelegate.swift in Sources */,
+				E16F52281EE8572F00867C7E /* Friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E16F52291EE8572F00867C7E /* Friend.swift in Sources */,
 				E16F520B1EE84E5400867C7E /* Sample_TableView_With_MultipleCell_mvvmTests.swift in Sources */,
 				E16F52261EE854E000867C7E /* Profile.swift in Sources */,
 			);
