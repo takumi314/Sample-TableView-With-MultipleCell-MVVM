@@ -14,7 +14,7 @@ struct Profile {
     var pictureUrl: String?
     var email: String?
     var about: String?
-//    var friends = []()
-//    var profileAttributes = []()
+    var friends = [Friend]()
+    var profileAttributes = [Attribute]()
 
 }
