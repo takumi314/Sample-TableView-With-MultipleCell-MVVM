@@ -9,4 +9,12 @@
 import Foundation
 
 struct Profile {
+
+    var fullName: String?
+    var pictureUrl: String?
+    var email: String?
+    var about: String?
+//    var friends = []()
+//    var profileAttributes = []()
+
 }
