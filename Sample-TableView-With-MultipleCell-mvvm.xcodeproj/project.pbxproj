@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E16F51F61EE84E5400867C7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F51F51EE84E5400867C7E /* AppDelegate.swift */; };
+		E16F51F81EE84E5400867C7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F51F71EE84E5400867C7E /* ViewController.swift */; };
+		E16F51FB1EE84E5400867C7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16F51F91EE84E5400867C7E /* Main.storyboard */; };
+		E16F51FD1EE84E5400867C7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E16F51FC1EE84E5400867C7E /* Assets.xcassets */; };
+		E16F52001EE84E5400867C7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16F51FE1EE84E5400867C7E /* LaunchScreen.storyboard */; };
+		E16F520B1EE84E5400867C7E /* Sample_TableView_With_MultipleCell_mvvmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F520A1EE84E5400867C7E /* Sample_TableView_With_MultipleCell_mvvmTests.swift */; };
+		E16F52161EE84E5400867C7E /* Sample_TableView_With_MultipleCell_mvvmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F52151EE84E5400867C7E /* Sample_TableView_With_MultipleCell_mvvmUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E16F52071EE84E5400867C7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E16F51EA1EE84E5300867C7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E16F51F11EE84E5400867C7E;
+			remoteInfo = "Sample-TableView-With-MultipleCell-mvvm";
+		};
+		E16F52121EE84E5400867C7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E16F51EA1EE84E5300867C7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E16F51F11EE84E5400867C7E;
+			remoteInfo = "Sample-TableView-With-MultipleCell-mvvm";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E16F51F21EE84E5400867C7E /* Sample-TableView-With-MultipleCell-mvvm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample-TableView-With-MultipleCell-mvvm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16F51F51EE84E5400867C7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E16F51F71EE84E5400867C7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E16F51FA1EE84E5400867C7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E16F51FC1EE84E5400867C7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E16F51FF1EE84E5400867C7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E16F52011EE84E5400867C7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E16F52061EE84E5400867C7E /* Sample-TableView-With-MultipleCell-mvvmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sample-TableView-With-MultipleCell-mvvmTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16F520A1EE84E5400867C7E /* Sample_TableView_With_MultipleCell_mvvmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_TableView_With_MultipleCell_mvvmTests.swift; sourceTree = "<group>"; };
+		E16F520C1EE84E5400867C7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E16F52111EE84E5400867C7E /* Sample-TableView-With-MultipleCell-mvvmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sample-TableView-With-MultipleCell-mvvmUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16F52151EE84E5400867C7E /* Sample_TableView_With_MultipleCell_mvvmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_TableView_With_MultipleCell_mvvmUITests.swift; sourceTree = "<group>"; };
+		E16F52171EE84E5400867C7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E16F51EF1EE84E5400867C7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16F52031EE84E5400867C7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16F520E1EE84E5400867C7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E16F51E91EE84E5300867C7E = {
+			isa = PBXGroup;
+			children = (
+				E16F51F41EE84E5400867C7E /* Sample-TableView-With-MultipleCell-mvvm */,
+				E16F52091EE84E5400867C7E /* Sample-TableView-With-MultipleCell-mvvmTests */,
+				E16F52141EE84E5400867C7E /* Sample-TableView-With-MultipleCell-mvvmUITests */,
+				E16F51F31EE84E5400867C7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E16F51F31EE84E5400867C7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E16F51F21EE84E5400867C7E /* Sample-TableView-With-MultipleCell-mvvm.app */,
+				E16F52061EE84E5400867C7E /* Sample-TableView-With-MultipleCell-mvvmTests.xctest */,
+				E16F52111EE84E5400867C7E /* Sample-TableView-With-MultipleCell-mvvmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E16F51F41EE84E5400867C7E /* Sample-TableView-With-MultipleCell-mvvm */ = {
+			isa = PBXGroup;
+			children = (
+				E16F51F51EE84E5400867C7E /* AppDelegate.swift */,
+				E16F51F71EE84E5400867C7E /* ViewController.swift */,
+				E16F51F91EE84E5400867C7E /* Main.storyboard */,
+				E16F51FC1EE84E5400867C7E /* Assets.xcassets */,
+				E16F51FE1EE84E5400867C7E /* LaunchScreen.storyboard */,
+				E16F52011EE84E5400867C7E /* Info.plist */,
+			);
+			path = "Sample-TableView-With-MultipleCell-mvvm";
+			sourceTree = "<group>";
+		};
+		E16F52091EE84E5400867C7E /* Sample-TableView-With-MultipleCell-mvvmTests */ = {
+			isa = PBXGroup;
+			children = (
+				E16F520A1EE84E5400867C7E /* Sample_TableView_With_MultipleCell_mvvmTests.swift */,
+				E16F520C1EE84E5400867C7E /* Info.plist */,
+			);
+			path = "Sample-TableView-With-MultipleCell-mvvmTests";
+			sourceTree = "<group>";
+		};
+		E16F52141EE84E5400867C7E /* Sample-TableView-With-MultipleCell-mvvmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E16F52151EE84E5400867C7E /* Sample_TableView_With_MultipleCell_mvvmUITests.swift */,
+				E16F52171EE84E5400867C7E /* Info.plist */,
+			);
+			path = "Sample-TableView-With-MultipleCell-mvvmUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E16F51F11EE84E5400867C7E /* Sample-TableView-With-MultipleCell-mvvm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E16F521A1EE84E5500867C7E /* Build configuration list for PBXNativeTarget "Sample-TableView-With-MultipleCell-mvvm" */;
+			buildPhases = (
+				E16F51EE1EE84E5400867C7E /* Sources */,
+				E16F51EF1EE84E5400867C7E /* Frameworks */,
+				E16F51F01EE84E5400867C7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sample-TableView-With-MultipleCell-mvvm";
+			productName = "Sample-TableView-With-MultipleCell-mvvm";
+			productReference = E16F51F21EE84E5400867C7E /* Sample-TableView-With-MultipleCell-mvvm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E16F52051EE84E5400867C7E /* Sample-TableView-With-MultipleCell-mvvmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E16F521D1EE84E5500867C7E /* Build configuration list for PBXNativeTarget "Sample-TableView-With-MultipleCell-mvvmTests" */;
+			buildPhases = (
+				E16F52021EE84E5400867C7E /* Sources */,
+				E16F52031EE84E5400867C7E /* Frameworks */,
+				E16F52041EE84E5400867C7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E16F52081EE84E5400867C7E /* PBXTargetDependency */,
+			);
+			name = "Sample-TableView-With-MultipleCell-mvvmTests";
+			productName = "Sample-TableView-With-MultipleCell-mvvmTests";
+			productReference = E16F52061EE84E5400867C7E /* Sample-TableView-With-MultipleCell-mvvmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E16F52101EE84E5400867C7E /* Sample-TableView-With-MultipleCell-mvvmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E16F52201EE84E5500867C7E /* Build configuration list for PBXNativeTarget "Sample-TableView-With-MultipleCell-mvvmUITests" */;
+			buildPhases = (
+				E16F520D1EE84E5400867C7E /* Sources */,
+				E16F520E1EE84E5400867C7E /* Frameworks */,
+				E16F520F1EE84E5400867C7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E16F52131EE84E5400867C7E /* PBXTargetDependency */,
+			);
+			name = "Sample-TableView-With-MultipleCell-mvvmUITests";
+			productName = "Sample-TableView-With-MultipleCell-mvvmUITests";
+			productReference = E16F52111EE84E5400867C7E /* Sample-TableView-With-MultipleCell-mvvmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E16F51EA1EE84E5300867C7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Kohey;
+				TargetAttributes = {
+					E16F51F11EE84E5400867C7E = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 9D8UR7H9D4;
+						ProvisioningStyle = Automatic;
+					};
+					E16F52051EE84E5400867C7E = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 9D8UR7H9D4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E16F51F11EE84E5400867C7E;
+					};
+					E16F52101EE84E5400867C7E = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 9D8UR7H9D4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E16F51F11EE84E5400867C7E;
+					};
+				};
+			};
+			buildConfigurationList = E16F51ED1EE84E5400867C7E /* Build configuration list for PBXProject "Sample-TableView-With-MultipleCell-mvvm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E16F51E91EE84E5300867C7E;
+			productRefGroup = E16F51F31EE84E5400867C7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E16F51F11EE84E5400867C7E /* Sample-TableView-With-MultipleCell-mvvm */,
+				E16F52051EE84E5400867C7E /* Sample-TableView-With-MultipleCell-mvvmTests */,
+				E16F52101EE84E5400867C7E /* Sample-TableView-With-MultipleCell-mvvmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E16F51F01EE84E5400867C7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16F52001EE84E5400867C7E /* LaunchScreen.storyboard in Resources */,
+				E16F51FD1EE84E5400867C7E /* Assets.xcassets in Resources */,
+				E16F51FB1EE84E5400867C7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16F52041EE84E5400867C7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16F520F1EE84E5400867C7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E16F51EE1EE84E5400867C7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16F51F81EE84E5400867C7E /* ViewController.swift in Sources */,
+				E16F51F61EE84E5400867C7E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16F52021EE84E5400867C7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16F520B1EE84E5400867C7E /* Sample_TableView_With_MultipleCell_mvvmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16F520D1EE84E5400867C7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16F52161EE84E5400867C7E /* Sample_TableView_With_MultipleCell_mvvmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E16F52081EE84E5400867C7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E16F51F11EE84E5400867C7E /* Sample-TableView-With-MultipleCell-mvvm */;
+			targetProxy = E16F52071EE84E5400867C7E /* PBXContainerItemProxy */;
+		};
+		E16F52131EE84E5400867C7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E16F51F11EE84E5400867C7E /* Sample-TableView-With-MultipleCell-mvvm */;
+			targetProxy = E16F52121EE84E5400867C7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E16F51F91EE84E5400867C7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E16F51FA1EE84E5400867C7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E16F51FE1EE84E5400867C7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E16F51FF1EE84E5400867C7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E16F52181EE84E5400867C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E16F52191EE84E5400867C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E16F521B1EE84E5500867C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9D8UR7H9D4;
+				INFOPLIST_FILE = "Sample-TableView-With-MultipleCell-mvvm/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.kohey.Sample-TableView-With-MultipleCell-mvvm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E16F521C1EE84E5500867C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9D8UR7H9D4;
+				INFOPLIST_FILE = "Sample-TableView-With-MultipleCell-mvvm/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.kohey.Sample-TableView-With-MultipleCell-mvvm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E16F521E1EE84E5500867C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9D8UR7H9D4;
+				INFOPLIST_FILE = "Sample-TableView-With-MultipleCell-mvvmTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.kohey.Sample-TableView-With-MultipleCell-mvvmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sample-TableView-With-MultipleCell-mvvm.app/Sample-TableView-With-MultipleCell-mvvm";
+			};
+			name = Debug;
+		};
+		E16F521F1EE84E5500867C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9D8UR7H9D4;
+				INFOPLIST_FILE = "Sample-TableView-With-MultipleCell-mvvmTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.kohey.Sample-TableView-With-MultipleCell-mvvmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sample-TableView-With-MultipleCell-mvvm.app/Sample-TableView-With-MultipleCell-mvvm";
+			};
+			name = Release;
+		};
+		E16F52211EE84E5500867C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9D8UR7H9D4;
+				INFOPLIST_FILE = "Sample-TableView-With-MultipleCell-mvvmUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.kohey.Sample-TableView-With-MultipleCell-mvvmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Sample-TableView-With-MultipleCell-mvvm";
+			};
+			name = Debug;
+		};
+		E16F52221EE84E5500867C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9D8UR7H9D4;
+				INFOPLIST_FILE = "Sample-TableView-With-MultipleCell-mvvmUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.kohey.Sample-TableView-With-MultipleCell-mvvmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Sample-TableView-With-MultipleCell-mvvm";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E16F51ED1EE84E5400867C7E /* Build configuration list for PBXProject "Sample-TableView-With-MultipleCell-mvvm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16F52181EE84E5400867C7E /* Debug */,
+				E16F52191EE84E5400867C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E16F521A1EE84E5500867C7E /* Build configuration list for PBXNativeTarget "Sample-TableView-With-MultipleCell-mvvm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16F521B1EE84E5500867C7E /* Debug */,
+				E16F521C1EE84E5500867C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E16F521D1EE84E5500867C7E /* Build configuration list for PBXNativeTarget "Sample-TableView-With-MultipleCell-mvvmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16F521E1EE84E5500867C7E /* Debug */,
+				E16F521F1EE84E5500867C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E16F52201EE84E5500867C7E /* Build configuration list for PBXNativeTarget "Sample-TableView-With-MultipleCell-mvvmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16F52211EE84E5500867C7E /* Debug */,
+				E16F52221EE84E5500867C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E16F51EA1EE84E5300867C7E /* Project object */;
+}
