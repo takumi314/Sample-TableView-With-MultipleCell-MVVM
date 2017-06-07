@@ -9,4 +9,11 @@
 import Foundation
 
 struct Friend {
+    var name: String?
+    var photoURL: String?
+
+    init(json: [String: Any]) {
+        self.name = json["name"] as? String
+        self.photoURL = json["pictureUrl"] as? String
+    }
 }
