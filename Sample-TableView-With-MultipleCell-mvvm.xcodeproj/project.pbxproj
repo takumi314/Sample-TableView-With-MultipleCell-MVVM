@@ -14,6 +14,8 @@
 		E16F52001EE84E5400867C7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16F51FE1EE84E5400867C7E /* LaunchScreen.storyboard */; };
 		E16F520B1EE84E5400867C7E /* Sample_TableView_With_MultipleCell_mvvmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F520A1EE84E5400867C7E /* Sample_TableView_With_MultipleCell_mvvmTests.swift */; };
 		E16F52161EE84E5400867C7E /* Sample_TableView_With_MultipleCell_mvvmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F52151EE84E5400867C7E /* Sample_TableView_With_MultipleCell_mvvmUITests.swift */; };
+		E16F52251EE854E000867C7E /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F52241EE854E000867C7E /* Profile.swift */; };
+		E16F52261EE854E000867C7E /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F52241EE854E000867C7E /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,7 @@
 		E16F52111EE84E5400867C7E /* Sample-TableView-With-MultipleCell-mvvmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sample-TableView-With-MultipleCell-mvvmUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16F52151EE84E5400867C7E /* Sample_TableView_With_MultipleCell_mvvmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_TableView_With_MultipleCell_mvvmUITests.swift; sourceTree = "<group>"; };
 		E16F52171EE84E5400867C7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E16F52241EE854E000867C7E /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Profile.swift; path = Models/Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,7 @@
 		E16F51F41EE84E5400867C7E /* Sample-TableView-With-MultipleCell-mvvm */ = {
 			isa = PBXGroup;
 			children = (
+				E16F52231EE8547200867C7E /* Models */,
 				E16F51F51EE84E5400867C7E /* AppDelegate.swift */,
 				E16F51F71EE84E5400867C7E /* ViewController.swift */,
 				E16F51F91EE84E5400867C7E /* Main.storyboard */,
@@ -123,6 +127,14 @@
 				E16F52171EE84E5400867C7E /* Info.plist */,
 			);
 			path = "Sample-TableView-With-MultipleCell-mvvmUITests";
+			sourceTree = "<group>";
+		};
+		E16F52231EE8547200867C7E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E16F52241EE854E000867C7E /* Profile.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E16F51F81EE84E5400867C7E /* ViewController.swift in Sources */,
+				E16F52251EE854E000867C7E /* Profile.swift in Sources */,
 				E16F51F61EE84E5400867C7E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E16F520B1EE84E5400867C7E /* Sample_TableView_With_MultipleCell_mvvmTests.swift in Sources */,
+				E16F52261EE854E000867C7E /* Profile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
