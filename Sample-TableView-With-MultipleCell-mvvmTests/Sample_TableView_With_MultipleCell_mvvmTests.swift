@@ -32,5 +32,12 @@ class Sample_TableView_With_MultipleCell_mvvmTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-    
+
+    func testProfile() {
+        let data = dataFromFile("TestData")
+        let profile = Profile(data: data!)
+
+        // Something else
+    }
+
 }
