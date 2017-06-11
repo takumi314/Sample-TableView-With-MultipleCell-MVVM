@@ -15,3 +15,11 @@ protocol ProfileViewModelItem {
     var isCollapsible: Bool { get }
     var isCollapsed: Bool { get set }
 }
+
+extension ProfileViewModelItem {
+    var rowCount: Int {
+        get {
+            return 1
+        }
+    }
+}
