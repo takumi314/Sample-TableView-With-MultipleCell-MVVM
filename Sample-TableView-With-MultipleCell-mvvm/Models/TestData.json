@@ -10,21 +10,21 @@
     "data": {
         "id": 1,
         "fullName": "Kohey",
-        "pictureUrl": "tom",
+        "photoURL": "tom",
         "email": "hogehoge@gmail.com",
         "about": "I like travelling along Tokyo!",
         "friends": [
                     {
                     "name": "Ken",
-                    "pictureURL": "finn"
+                    "photoURL": "finn"
                     },
                     {
                     "name": "Tom",
-                    "pictureURL": "becky"
+                    "photoURL": "becky"
                     },
                     {
                     "name": "Sierra",
-                    "pictureURL": "holm"
+                    "photoURL": "holm"
                     }
                     ],
         "profileAttributes": [

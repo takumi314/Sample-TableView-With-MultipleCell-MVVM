@@ -14,6 +14,6 @@ struct Friend {
 
     init(json: [String: Any]) {
         self.name = json["name"] as? String
-        self.photoURL = json["pictureUrl"] as? String
+        self.photoURL = json["photoURL"] as? String
     }
 }
