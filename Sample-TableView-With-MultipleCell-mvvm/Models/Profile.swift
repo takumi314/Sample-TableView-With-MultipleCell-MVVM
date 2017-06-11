@@ -20,7 +20,7 @@ public func dataFromFile(_ filename: String) -> Data? {
 
 struct Profile {
     var fullName: String?
-    var pictureUrl: String?
+    var photoURL: String?
     var email: String?
     var about: String?
     var friends = [Friend]()
@@ -30,7 +30,7 @@ struct Profile {
         do {
             if let json = try JSONSerialization.jsonObject(with: data) as? [String: Any], let body = json["data"] as? [String: Any] {
                 self.fullName = body["fullName"] as? String
-                self.pictureUrl = body["pictureURL"] as? String
+                self.photoURL = body["photoURL"] as? String
                 self.about = body["about"] as? String
                 self.email = body["email"] as? String
 
