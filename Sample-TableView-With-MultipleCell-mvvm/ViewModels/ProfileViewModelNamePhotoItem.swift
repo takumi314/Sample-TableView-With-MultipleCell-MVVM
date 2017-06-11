@@ -7,3 +7,29 @@
 //
 
 import Foundation
+
+struct ProfileViewModelNamePhotoItem: ProfileViewModelItem {
+
+    var type: ProfileViewModelItemType {
+        return .namePhoto
+    }
+
+    var isCollapsible: Bool {
+        return true
+    }
+
+    var sectionTitle: String {
+        return "Main Info"
+    }
+
+    var isCollapsed = true
+
+    var name: String
+    var photoURL: String
+
+    init(name: String, photoURL: String) {
+        self.name = name
+        self.photoURL = photoURL
+    }
+
+}
