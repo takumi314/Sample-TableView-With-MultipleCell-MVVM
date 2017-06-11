@@ -86,6 +86,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E1025E8F1EED9D8700C998FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		E16F51E91EE84E5300867C7E = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +116,7 @@
 		E16F51F41EE84E5400867C7E /* Sample-TableView-With-MultipleCell-mvvm */ = {
 			isa = PBXGroup;
 			children = (
+				E1025E8F1EED9D8700C998FE /* Views */,
 				E16F522D1EE85D7200867C7E /* Others */,
 				E16F52231EE8547200867C7E /* Models */,
 				E16F51F51EE84E5400867C7E /* AppDelegate.swift */,
@@ -554,6 +562,7 @@
 				E16F521C1EE84E5500867C7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E16F521D1EE84E5500867C7E /* Build configuration list for PBXNativeTarget "Sample-TableView-With-MultipleCell-mvvmTests" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +571,7 @@
 				E16F521F1EE84E5500867C7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E16F52201EE84E5500867C7E /* Build configuration list for PBXNativeTarget "Sample-TableView-With-MultipleCell-mvvmUITests" */ = {
 			isa = XCConfigurationList;
@@ -570,6 +580,7 @@
 				E16F52221EE84E5500867C7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
