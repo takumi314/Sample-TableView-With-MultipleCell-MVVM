@@ -11,4 +11,16 @@ import UIKit
 class FriendCell: UITableViewCell {
     @IBOutlet weak var photoImageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
+
+    var item: Friend? {
+        didSet {
+            guard let item = item else {
+                return
+            }
+            if let pictureUrl = item.photoURL {
+                photoImageView?.image = UIImage(named: pictureUrl)
+            }
+            nameLabel?.text = item.name
+        }
+    }
 }
