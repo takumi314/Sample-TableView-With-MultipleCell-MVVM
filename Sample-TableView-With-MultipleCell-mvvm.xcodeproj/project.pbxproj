@@ -15,6 +15,8 @@
 		E1025E811EED7FC200C998FE /* ProfileViewModelNamePhotoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1025E7F1EED7FC200C998FE /* ProfileViewModelNamePhotoItem.swift */; };
 		E1025E831EED892500C998FE /* ProfileViewModelAboutItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1025E821EED892500C998FE /* ProfileViewModelAboutItem.swift */; };
 		E1025E841EED892500C998FE /* ProfileViewModelAboutItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1025E821EED892500C998FE /* ProfileViewModelAboutItem.swift */; };
+		E1025E861EED8A5100C998FE /* ProfileViewModelEmailItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1025E851EED8A5100C998FE /* ProfileViewModelEmailItem.swift */; };
+		E1025E871EED8A5100C998FE /* ProfileViewModelEmailItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1025E851EED8A5100C998FE /* ProfileViewModelEmailItem.swift */; };
 		E16F51F61EE84E5400867C7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F51F51EE84E5400867C7E /* AppDelegate.swift */; };
 		E16F51F81EE84E5400867C7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F51F71EE84E5400867C7E /* ViewController.swift */; };
 		E16F51FB1EE84E5400867C7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16F51F91EE84E5400867C7E /* Main.storyboard */; };
@@ -54,6 +56,7 @@
 		E1025E7C1EED771C00C998FE /* ProfileViewModelItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewModelItem.swift; path = ViewModels/ProfileViewModelItem.swift; sourceTree = "<group>"; };
 		E1025E7F1EED7FC200C998FE /* ProfileViewModelNamePhotoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewModelNamePhotoItem.swift; path = ViewModels/ProfileViewModelNamePhotoItem.swift; sourceTree = "<group>"; };
 		E1025E821EED892500C998FE /* ProfileViewModelAboutItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewModelAboutItem.swift; path = ViewModels/ProfileViewModelAboutItem.swift; sourceTree = "<group>"; };
+		E1025E851EED8A5100C998FE /* ProfileViewModelEmailItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewModelEmailItem.swift; path = ViewModels/ProfileViewModelEmailItem.swift; sourceTree = "<group>"; };
 		E16F51F21EE84E5400867C7E /* Sample-TableView-With-MultipleCell-mvvm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample-TableView-With-MultipleCell-mvvm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16F51F51EE84E5400867C7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E16F51F71EE84E5400867C7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +108,7 @@
 				E1025E7C1EED771C00C998FE /* ProfileViewModelItem.swift */,
 				E1025E7F1EED7FC200C998FE /* ProfileViewModelNamePhotoItem.swift */,
 				E1025E821EED892500C998FE /* ProfileViewModelAboutItem.swift */,
+				E1025E851EED8A5100C998FE /* ProfileViewModelEmailItem.swift */,
 			);
 			name = ViewModels;
 			sourceTree = "<group>";
@@ -328,6 +332,7 @@
 				E1025E831EED892500C998FE /* ProfileViewModelAboutItem.swift in Sources */,
 				E16F52251EE854E000867C7E /* Profile.swift in Sources */,
 				E16F51F61EE84E5400867C7E /* AppDelegate.swift in Sources */,
+				E1025E861EED8A5100C998FE /* ProfileViewModelEmailItem.swift in Sources */,
 				E16F52281EE8572F00867C7E /* Friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,6 +343,7 @@
 			files = (
 				E16F52291EE8572F00867C7E /* Friend.swift in Sources */,
 				E1025E841EED892500C998FE /* ProfileViewModelAboutItem.swift in Sources */,
+				E1025E871EED8A5100C998FE /* ProfileViewModelEmailItem.swift in Sources */,
 				E1025E7E1EED771C00C998FE /* ProfileViewModelItem.swift in Sources */,
 				E16F520B1EE84E5400867C7E /* Sample_TableView_With_MultipleCell_mvvmTests.swift in Sources */,
 				E16F522C1EE8597F00867C7E /* Attribute.swift in Sources */,
