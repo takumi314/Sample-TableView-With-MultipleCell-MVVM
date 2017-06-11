@@ -9,5 +9,6 @@
 import UIKit
 
 class EmailCell: UITableViewCell {
+    @IBOutlet weak var emailLabel: UILabel!
 
 }

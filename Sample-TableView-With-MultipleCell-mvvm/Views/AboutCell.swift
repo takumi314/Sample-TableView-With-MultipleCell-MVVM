@@ -9,5 +9,6 @@
 import UIKit
 
 class AboutCell: UITableViewCell {
+    @IBOutlet weak var aboutLabel: UILabel!
 
 }
