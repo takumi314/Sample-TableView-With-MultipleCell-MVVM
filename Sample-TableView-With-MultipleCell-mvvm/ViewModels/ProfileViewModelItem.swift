@@ -22,4 +22,10 @@ extension ProfileViewModelItem {
             return 1
         }
     }
+    var isCollapsible: Bool {
+        get {
+            return true
+        }
+    }
+
 }
