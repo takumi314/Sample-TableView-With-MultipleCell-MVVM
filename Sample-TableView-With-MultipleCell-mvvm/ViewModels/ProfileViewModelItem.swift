@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+protocol ProfileViewModelItem {
+    var type: ProfileViewModelItemType { get }
+    var sectionTitle: String { get }
+    var rowCount: Int { get }
+    var isCollapsible: Bool { get }
+    var isCollapsed: Bool { get set }
+}
