@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 enum ProfileViewModelItemType {
-    case nameAndPhoto
+    case namePhoto
     case about
     case email
     case friend
