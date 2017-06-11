@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1025E7A1EED754B00C998FE /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1025E791EED754B00C998FE /* ProfileViewModel.swift */; };
+		E1025E7B1EED754B00C998FE /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1025E791EED754B00C998FE /* ProfileViewModel.swift */; };
 		E16F51F61EE84E5400867C7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F51F51EE84E5400867C7E /* AppDelegate.swift */; };
 		E16F51F81EE84E5400867C7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F51F71EE84E5400867C7E /* ViewController.swift */; };
 		E16F51FB1EE84E5400867C7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16F51F91EE84E5400867C7E /* Main.storyboard */; };
@@ -42,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E1025E791EED754B00C998FE /* ProfileViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewModel.swift; path = ViewModels/ProfileViewModel.swift; sourceTree = "<group>"; };
 		E16F51F21EE84E5400867C7E /* Sample-TableView-With-MultipleCell-mvvm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample-TableView-With-MultipleCell-mvvm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16F51F51EE84E5400867C7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E16F51F71EE84E5400867C7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +92,7 @@
 		E1025E781EED749000C998FE /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				E1025E791EED754B00C998FE /* ProfileViewModel.swift */,
 			);
 			name = ViewModels;
 			sourceTree = "<group>";
@@ -304,6 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1025E7A1EED754B00C998FE /* ProfileViewModel.swift in Sources */,
 				E16F522B1EE8597F00867C7E /* Attribute.swift in Sources */,
 				E16F51F81EE84E5400867C7E /* ViewController.swift in Sources */,
 				E16F52251EE854E000867C7E /* Profile.swift in Sources */,
@@ -320,6 +325,7 @@
 				E16F520B1EE84E5400867C7E /* Sample_TableView_With_MultipleCell_mvvmTests.swift in Sources */,
 				E16F522C1EE8597F00867C7E /* Attribute.swift in Sources */,
 				E16F52261EE854E000867C7E /* Profile.swift in Sources */,
+				E1025E7B1EED754B00C998FE /* ProfileViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
