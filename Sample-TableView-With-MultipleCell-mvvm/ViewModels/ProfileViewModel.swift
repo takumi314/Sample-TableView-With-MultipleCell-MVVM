@@ -9,4 +9,10 @@
 import Foundation
 import UIKit
 
-
+enum ProfileViewModelItemType {
+    case nameAndPhoto
+    case about
+    case email
+    case friend
+    case attribute
+}
