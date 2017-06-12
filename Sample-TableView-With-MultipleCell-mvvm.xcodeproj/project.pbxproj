@@ -44,6 +44,8 @@
 		E1025ECB1EEDAC0B00C998FE /* ProfileViewModelEmailItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1025EC41EEDAC0B00C998FE /* ProfileViewModelEmailItem.swift */; };
 		E1025ECC1EEDAC0B00C998FE /* ProfileViewModelItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1025EC51EEDAC0B00C998FE /* ProfileViewModelItem.swift */; };
 		E1025ECD1EEDAC0B00C998FE /* ProfileViewModelNamePhotoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1025EC61EEDAC0B00C998FE /* ProfileViewModelNamePhotoItem.swift */; };
+		E1025ECF1EEEDD2000C998FE /* CellIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1025ECE1EEEDD2000C998FE /* CellIdentifiable.swift */; };
+		E1025ED01EEEDD2000C998FE /* CellIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1025ECE1EEEDD2000C998FE /* CellIdentifiable.swift */; };
 		E16F51F61EE84E5400867C7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F51F51EE84E5400867C7E /* AppDelegate.swift */; };
 		E16F51F81EE84E5400867C7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F51F71EE84E5400867C7E /* ViewController.swift */; };
 		E16F51FB1EE84E5400867C7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16F51F91EE84E5400867C7E /* Main.storyboard */; };
@@ -96,6 +98,7 @@
 		E1025EC41EEDAC0B00C998FE /* ProfileViewModelEmailItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewModelEmailItem.swift; path = ViewModels/ProfileViewModelEmailItem.swift; sourceTree = "<group>"; };
 		E1025EC51EEDAC0B00C998FE /* ProfileViewModelItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewModelItem.swift; path = ViewModels/ProfileViewModelItem.swift; sourceTree = "<group>"; };
 		E1025EC61EEDAC0B00C998FE /* ProfileViewModelNamePhotoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewModelNamePhotoItem.swift; path = ViewModels/ProfileViewModelNamePhotoItem.swift; sourceTree = "<group>"; };
+		E1025ECE1EEEDD2000C998FE /* CellIdentifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CellIdentifiable.swift; path = Views/CellIdentifiable.swift; sourceTree = "<group>"; };
 		E16F51F21EE84E5400867C7E /* Sample-TableView-With-MultipleCell-mvvm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample-TableView-With-MultipleCell-mvvm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16F51F51EE84E5400867C7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E16F51F71EE84E5400867C7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -153,6 +156,7 @@
 				E1025EA51EED9EFA00C998FE /* FriendCell.xib */,
 				E1025EB91EED9FA400C998FE /* AttributeCell.swift */,
 				E1025EA11EED9EE100C998FE /* AttributeCell.xib */,
+				E1025ECE1EEEDD2000C998FE /* CellIdentifiable.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -399,6 +403,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1025EC81EEDAC0B00C998FE /* ProfileViewModeFriendsItem.swift in Sources */,
+				E1025ECF1EEEDD2000C998FE /* CellIdentifiable.swift in Sources */,
 				E1025ECC1EEDAC0B00C998FE /* ProfileViewModelItem.swift in Sources */,
 				E16F522B1EE8597F00867C7E /* Attribute.swift in Sources */,
 				E1025EAA1EED9F3200C998FE /* NamePhotoCell.swift in Sources */,
@@ -427,6 +432,7 @@
 				E1025EAB1EED9F3200C998FE /* NamePhotoCell.swift in Sources */,
 				E1025EB71EED9F8D00C998FE /* FriendCell.swift in Sources */,
 				E1025EB31EED9F5D00C998FE /* EmailCell.swift in Sources */,
+				E1025ED01EEEDD2000C998FE /* CellIdentifiable.swift in Sources */,
 				E16F522C1EE8597F00867C7E /* Attribute.swift in Sources */,
 				E16F52261EE854E000867C7E /* Profile.swift in Sources */,
 				E1025EBB1EED9FA400C998FE /* AttributeCell.swift in Sources */,
