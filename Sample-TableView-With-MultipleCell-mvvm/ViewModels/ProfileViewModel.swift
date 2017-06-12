@@ -130,3 +130,23 @@ extension ProfileViewModel: UITableViewDelegate {
         return UIView()
     }
 }
+
+// MARK: ProfileHeaderViewDelegate
+
+extension ProfileViewModel: ProfileHeaderViewDelegate {
+
+    func toggleSection(header: ProfileHeaderView, section: Int) {
+        var item = items[section]
+        if item.isCollapsible {
+
+            // Toggle collapse
+            let collapsed = !item.isCollapsed
+            item.isCollapsed = collapsed
+            header.setCollapsed(collopsed: collapsed)
+
+            // Adjust the number of the rows inside the section
+            reloadSections?(section)
+        }
+    }
+
+}
