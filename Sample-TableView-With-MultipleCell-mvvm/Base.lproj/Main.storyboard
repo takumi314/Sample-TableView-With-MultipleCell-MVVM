@@ -34,6 +34,9 @@
                             <constraint firstItem="Aa4-BK-Eii" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="yEV-1i-ame"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="profileTableView" destination="Aa4-BK-Eii" id="a5C-vy-FnY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
