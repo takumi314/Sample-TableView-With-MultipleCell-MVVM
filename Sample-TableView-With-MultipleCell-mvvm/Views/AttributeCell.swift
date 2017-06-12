@@ -11,4 +11,24 @@ import UIKit
 class AttributeCell: UITableViewCell {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var valueLabel: UILabel!
+
+    var item: Attribute?  {
+        didSet {
+            titleLabel?.text = item?.key
+            valueLabel?.text = item?.value
+        }
+    }
+
+    override func awakeFromNib() {
+        super.awakeFromNib()
+    }
+
+    override func prepareForReuse() {
+        super.prepareForReuse()
+    }
+
+}
+
+extension AttributeCell: CellIdentifiable {
+
 }

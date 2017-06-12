@@ -11,4 +11,25 @@ import UIKit
 class AboutCell: UITableViewCell {
     @IBOutlet weak var aboutLabel: UILabel!
 
+    var item: ProfileViewModelItem? {
+        didSet {
+            guard  let item = item as? ProfileViewModelAboutItem else {
+                return
+            }
+            aboutLabel?.text = item.about
+        }
+    }
+
+    override func awakeFromNib() {
+        super.awakeFromNib()
+    }
+
+    override func prepareForReuse() {
+        super.prepareForReuse()
+    }
+
+}
+
+extension AboutCell: CellIdentifiable {
+
 }
