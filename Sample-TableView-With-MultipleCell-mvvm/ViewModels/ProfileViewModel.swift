@@ -111,6 +111,10 @@ extension ProfileViewModel: UITableViewDataSource {
 
 extension ProfileViewModel: UITableViewDelegate {
 
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return items[section].sectionTitle
+    }
+
     public func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         return UIView()
     }
