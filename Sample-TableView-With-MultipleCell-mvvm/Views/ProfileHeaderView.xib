@@ -36,6 +36,10 @@
                 <constraint firstAttribute="trailing" secondItem="Bkk-uX-H2B" secondAttribute="trailing" constant="16" id="oF9-cA-KKz"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="arrowLabel" destination="Bkk-uX-H2B" id="8pa-xm-C5R"/>
+                <outlet property="titleLabel" destination="0If-TA-p4K" id="iJ7-ik-fFM"/>
+            </connections>
         </view>
     </objects>
 </document>

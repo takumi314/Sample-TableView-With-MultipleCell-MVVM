@@ -14,6 +14,8 @@ protocol ProfileHeaderViewDelegate {
 
 
 class ProfileHeaderView: UITableViewHeaderFooterView {
+    @IBOutlet weak var arrowLabel: UILabel!
+    @IBOutlet weak var titleLabel: UILabel!
 
     
 
