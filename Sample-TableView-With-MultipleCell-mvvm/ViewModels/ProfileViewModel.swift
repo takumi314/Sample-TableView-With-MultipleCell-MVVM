@@ -111,6 +111,17 @@ extension ProfileViewModel: UITableViewDataSource {
 
 extension ProfileViewModel: UITableViewDelegate {
 
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        switch items[indexPath.section].type {
+        case .namePhoto: break
+        case .about: break
+        case .email: break
+        case .friend: break
+        case .attribute: break
+            // do appropriate action for each type
+        }
+    }
+
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return items[section].sectionTitle
     }
