@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol ProfileHeaderViewDelegate {
+protocol ProfileHeaderViewDelegate: class {
     func toggleSection(header: ProfileHeaderView, section: Int)
 }
 
@@ -29,11 +29,16 @@ class ProfileHeaderView: UITableViewHeaderFooterView {
 
     var section: Int = 0
 
+    weak var delegete: ProfileHeaderViewDelegate?
+
     override func awakeFromNib() {
         super.awakeFromNib()
+
+        addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(didTapHeader)))
     }
 
     func didTapHeader() {
+        delegete?.toggleSection(header: self, section: section)
     }
 
     func setCollapsed(collopsed: Bool) {
