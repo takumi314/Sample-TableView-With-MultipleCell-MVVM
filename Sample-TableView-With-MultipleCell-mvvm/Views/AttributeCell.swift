@@ -18,4 +18,17 @@ class AttributeCell: UITableViewCell {
             valueLabel?.text = item?.value
         }
     }
+
+    override func awakeFromNib() {
+        super.awakeFromNib()
+    }
+
+    override func prepareForReuse() {
+        super.prepareForReuse()
+    }
+
+}
+
+extension AttributeCell: CellIdentifiable {
+
 }

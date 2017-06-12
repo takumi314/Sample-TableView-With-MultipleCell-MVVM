@@ -14,7 +14,6 @@ class NamePhotoCell: UITableViewCell {
 
     var item: ProfileViewModelItem? {
         didSet {
-            // cast the ProfileViewModelItem to appropriate item type
             guard let item = item as? ProfileViewModelNamePhotoItem  else {
                 return
             }
@@ -22,4 +21,24 @@ class NamePhotoCell: UITableViewCell {
             photoImageView?.image = UIImage(named: item.photoURL)
         }
     }
+
+    override func awakeFromNib() {
+        super.awakeFromNib()
+
+        photoImageView?.layer.cornerRadius = 50
+        photoImageView?.clipsToBounds = true
+        photoImageView?.contentMode = .scaleAspectFit
+        photoImageView?.backgroundColor = .lightGray
+    }
+
+    override func prepareForReuse() {
+        super.prepareForReuse()
+
+        photoImageView?.image = nil
+    }
+
+}
+
+extension NamePhotoCell: CellIdentifiable {
+
 }

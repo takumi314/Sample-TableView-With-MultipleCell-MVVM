@@ -19,4 +19,17 @@ class EmailCell: UITableViewCell {
             emailLabel?.text = item.email
         }
     }
+
+    override func awakeFromNib() {
+        super.awakeFromNib()
+    }
+
+    override func prepareForReuse() {
+        super.prepareForReuse()
+    }
+
+}
+
+extension EmailCell: CellIdentifiable {
+
 }

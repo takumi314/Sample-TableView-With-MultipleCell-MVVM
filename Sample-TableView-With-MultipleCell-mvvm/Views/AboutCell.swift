@@ -19,4 +19,17 @@ class AboutCell: UITableViewCell {
             aboutLabel?.text = item.about
         }
     }
+
+    override func awakeFromNib() {
+        super.awakeFromNib()
+    }
+
+    override func prepareForReuse() {
+        super.prepareForReuse()
+    }
+
+}
+
+extension AboutCell: CellIdentifiable {
+
 }

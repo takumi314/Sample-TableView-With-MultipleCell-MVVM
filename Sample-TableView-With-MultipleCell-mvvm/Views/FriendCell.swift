@@ -20,7 +20,38 @@ class FriendCell: UITableViewCell {
             if let pictureUrl = item.photoURL {
                 photoImageView?.image = UIImage(named: pictureUrl)
             }
+
             nameLabel?.text = item.name
         }
     }
+
+    override func awakeFromNib() {
+        super.awakeFromNib()
+
+        photoImageView?.layer.cornerRadius = 40
+        photoImageView?.clipsToBounds = true
+        photoImageView?.contentMode = .scaleAspectFit
+        photoImageView?.backgroundColor = .lightGray
+    }
+
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+
+        // Configure the view for the selected state
+    }
+
+    override func prepareForReuse() {
+        super.prepareForReuse()
+
+        // if the cell is reusable (has a reuse identifier), 
+        // this is called just before the cell is returned from 
+        // the table view method dequeueReusableCellWithIdentifier:.
+        // If you override, you MUST call super.
+        photoImageView?.image = nil
+    }
+
+}
+
+extension FriendCell: CellIdentifiable {
+
 }
