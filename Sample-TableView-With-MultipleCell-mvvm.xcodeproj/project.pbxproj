@@ -189,6 +189,15 @@
 			name = ViewModels;
 			sourceTree = "<group>";
 		};
+		E1025EDE1EEEFFA400C998FE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E16F51F91EE84E5400867C7E /* Main.storyboard */,
+				E16F51F71EE84E5400867C7E /* ViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		E16F51E91EE84E5300867C7E = {
 			isa = PBXGroup;
 			children = (
@@ -212,13 +221,12 @@
 		E16F51F41EE84E5400867C7E /* Sample-TableView-With-MultipleCell-mvvm */ = {
 			isa = PBXGroup;
 			children = (
+				E1025EDE1EEEFFA400C998FE /* ViewControllers */,
 				E1025EBF1EEDABF600C998FE /* ViewModels */,
 				E1025E8F1EED9D8700C998FE /* Views */,
 				E16F522D1EE85D7200867C7E /* Others */,
 				E16F52231EE8547200867C7E /* Models */,
 				E16F51F51EE84E5400867C7E /* AppDelegate.swift */,
-				E16F51F71EE84E5400867C7E /* ViewController.swift */,
-				E16F51F91EE84E5400867C7E /* Main.storyboard */,
 				E16F51FE1EE84E5400867C7E /* LaunchScreen.storyboard */,
 			);
 			path = "Sample-TableView-With-MultipleCell-mvvm";
