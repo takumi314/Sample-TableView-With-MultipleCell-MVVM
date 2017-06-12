@@ -17,7 +17,32 @@ class ProfileHeaderView: UITableViewHeaderFooterView {
     @IBOutlet weak var arrowLabel: UILabel!
     @IBOutlet weak var titleLabel: UILabel!
 
-    
+    var item: ProfileViewModelItem? {
+        didSet {
+            guard let item = item else {
+                return
+            }
+            titleLabel?.text = item.sectionTitle
+            setCollapsed(collopsed: item.isCollapsed)
+        }
+    }
+
+    var section: Int = 0
+
+    override func awakeFromNib() {
+        super.awakeFromNib()
+    }
+
+    func didTapHeader() {
+    }
+
+    func setCollapsed(collopsed: Bool) {
+    }
 
 }
+
+extension ProfileHeaderView: CellIdentifiable {
+    // Default implementation
+}
+
 
