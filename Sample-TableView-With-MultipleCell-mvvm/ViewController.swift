@@ -27,6 +27,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        viewModel.reloadSections = { [weak self] (section: Int) in
+            self?.profileTableView.beginUpdates()
+            self?.profileTableView.reloadSections([section], with: .fade)
+            self?.profileTableView.endUpdates()
+        }
+
     }
 
     override func didReceiveMemoryWarning() {
