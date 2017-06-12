@@ -33,6 +33,7 @@ class ViewController: UIViewController {
             self?.profileTableView.endUpdates()
         }
 
+        setUpTableView()
     }
 
     override func didReceiveMemoryWarning() {
@@ -41,6 +42,18 @@ class ViewController: UIViewController {
     }
 
     // MARK: - Private methods
+
+    func setUpTableView() {
+        profileTableView?.estimatedRowHeight = 100
+        profileTableView?.rowHeight = UITableViewAutomaticDimension
+        profileTableView?.sectionHeaderHeight = 70
+        profileTableView?.separatorStyle = .none
+
+        profileTableView?.dataSource = viewModel
+        profileTableView?.delegate = viewModel
+
+        profileTableView?.register(NamePhotoCell.nib, forCellReuseIdentifier: NamePhotoCell.identifier)
+    }
 
 
 }
