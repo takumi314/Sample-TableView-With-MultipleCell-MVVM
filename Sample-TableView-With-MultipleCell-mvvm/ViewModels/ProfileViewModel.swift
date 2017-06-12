@@ -71,6 +71,37 @@ extension ProfileViewModel: UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let item = items[indexPath.section]
+        switch item.type {
+        case .namePhoto:
+            if let cell = tableView.dequeueReusableCell(withIdentifier: NamePhotoCell.identifier, for: indexPath) as? NamePhotoCell {
+                cell.item = item
+                return cell
+            }
+        case .about:
+            if let cell = tableView.dequeueReusableCell(withIdentifier: AboutCell.identifier, for: indexPath) as? AboutCell {
+                cell.item = item
+                return cell
+            }
+        case .email:
+            if let cell = tableView.dequeueReusableCell(withIdentifier: EmailCell.identifier, for: indexPath) as? EmailCell {
+                cell.item = item
+                return cell
+            }
+        case .friend:
+            if let cell = tableView.dequeueReusableCell(withIdentifier: FriendCell.identifier, for: indexPath) as? FriendCell,
+                let item =  item as? ProfileViewModeFriendsItem {
+                cell.item = item.friends[indexPath.row]
+                return cell
+            }
+        case .attribute:
+            if let cell = tableView.dequeueReusableCell(withIdentifier: AttributeCell.identifier, for: indexPath) as? AttributeCell,
+                let item = item as? ProfileViewModeAttributeItem {
+                cell.item = item.attributes[indexPath.row]
+                return cell
+            }
+        }
+
         return UITableViewCell()
     }
 
@@ -83,7 +114,4 @@ extension ProfileViewModel: UITableViewDelegate {
     public func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         return UIView()
     }
-}
-
-extension ProfileViewModel {
 }
