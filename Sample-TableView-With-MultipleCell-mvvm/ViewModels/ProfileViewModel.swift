@@ -74,7 +74,7 @@ extension ProfileViewModel: UITableViewDataSource {
         }
     }
 
-    public func numberOfSections(in tableView: UITableView) -> Int {
+    func numberOfSections(in tableView: UITableView) -> Int {
         return items.count
     }
 
