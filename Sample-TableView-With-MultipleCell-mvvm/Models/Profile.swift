@@ -13,7 +13,7 @@ public func dataFromFile(_ filename: String) -> Data? {
 
     let bundle = Bundle(for: TestClass.self)
     if let path = bundle.path(forResource: filename, ofType: "json") {
-        return (try? Data(contentsOf: URL(fileURLWithPath: path)))
+        return try? Data(contentsOf: URL(fileURLWithPath: path))
     }
     return nil
 }
@@ -27,24 +27,28 @@ struct Profile {
     var profileAttributes = [Attribute]()
 
     init?(data: Data) {
+        let json: [String: Any]?
         do {
-            if let json = try JSONSerialization.jsonObject(with: data) as? [String: Any], let body = json["data"] as? [String: Any] {
-                self.fullName = body["fullName"] as? String
-                self.photoURL = body["photoURL"] as? String
-                self.about = body["about"] as? String
-                self.email = body["email"] as? String
-
-                if let friends = body["friends"] as? [[String: Any]] {
-                    self.friends = friends.map { Friend(json: $0) }
-                }
-
-                if let profileAttributes = body["profileAttributes"] as? [[String: Any]] {
-                    self.profileAttributes = profileAttributes.map { Attribute(json: $0) }
-                }
-            }
-        } catch {
+            json = try JSONSerialization.jsonObject(with: data, options: .allowFragments) as? [String: Any]
+        }
+        catch {
             print("Error deserializing JSON: \(error)")
             return nil
+        }
+
+        if let body = json?["data"] as? [String: Any] {
+            self.fullName = body["fullName"] as? String
+            self.photoURL = body["photoURL"] as? String
+            self.about = body["about"] as? String
+            self.email = body["email"] as? String
+
+            if let friends = body["friends"] as? [[String: Any]] {
+                self.friends = friends.map { Friend(json: $0) }
+            }
+
+            if let profileAttributes = body["profileAttributes"] as? [[String: Any]] {
+                self.profileAttributes = profileAttributes.map { Attribute(json: $0) }
+            }
         }
     }
 
