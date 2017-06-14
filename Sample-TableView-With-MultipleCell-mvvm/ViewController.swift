@@ -53,6 +53,11 @@ class ViewController: UIViewController {
         profileTableView?.delegate = viewModel
 
         profileTableView?.register(NamePhotoCell.nib, forCellReuseIdentifier: NamePhotoCell.identifier)
+        profileTableView?.register(AboutCell.nib, forCellReuseIdentifier: AboutCell.identifier)
+        profileTableView?.register(EmailCell.nib, forCellReuseIdentifier: EmailCell.identifier)
+        profileTableView?.register(FriendCell.nib, forCellReuseIdentifier: FriendCell.identifier)
+        profileTableView?.register(AttributeCell.nib, forCellReuseIdentifier: AttributeCell.identifier)
+        profileTableView?.register(ProfileHeaderView.nib, forCellReuseIdentifier: ProfileHeaderView.identifier)
     }
 
 

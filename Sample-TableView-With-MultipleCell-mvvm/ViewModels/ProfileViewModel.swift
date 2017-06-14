@@ -63,7 +63,15 @@ class ProfileViewModel: NSObject {
 extension ProfileViewModel: UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return items[section].rowCount
+        let item = items[section]
+        if item.isCollapsible {
+            return item.rowCount
+        }
+        if item.isCollapsed {
+            return 0
+        } else {
+            return item.rowCount
+        }
     }
 
     public func numberOfSections(in tableView: UITableView) -> Int {
@@ -113,11 +121,13 @@ extension ProfileViewModel: UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         switch items[indexPath.section].type {
-        case .namePhoto: break
-        case .about: break
-        case .email: break
-        case .friend: break
-        case .attribute: break
+        case .namePhoto, .about, .email:
+            // do appropriate action for each type
+            break
+        case .friend:
+            break
+        case .attribute:
+            break
             // do appropriate action for each type
         }
     }
@@ -126,7 +136,15 @@ extension ProfileViewModel: UITableViewDelegate {
         return items[section].sectionTitle
     }
 
-    public func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        if let header = tableView.dequeueReusableHeaderFooterView(withIdentifier: ProfileHeaderView.identifier) as? ProfileHeaderView {
+            let item = items[section]
+
+            header.item = item
+            header.section = section
+            header.delegete = self
+            return header
+        }
         return UIView()
     }
 }
