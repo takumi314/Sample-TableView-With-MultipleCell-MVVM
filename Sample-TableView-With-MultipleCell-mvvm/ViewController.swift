@@ -57,7 +57,7 @@ class ViewController: UIViewController {
         profileTableView?.register(EmailCell.nib, forCellReuseIdentifier: EmailCell.identifier)
         profileTableView?.register(FriendCell.nib, forCellReuseIdentifier: FriendCell.identifier)
         profileTableView?.register(AttributeCell.nib, forCellReuseIdentifier: AttributeCell.identifier)
-        profileTableView?.register(ProfileHeaderView.nib, forCellReuseIdentifier: ProfileHeaderView.identifier)
+        profileTableView?.register(ProfileHeaderView.nib, forHeaderFooterViewReuseIdentifier: ProfileHeaderView.identifier)
     }
 
 
