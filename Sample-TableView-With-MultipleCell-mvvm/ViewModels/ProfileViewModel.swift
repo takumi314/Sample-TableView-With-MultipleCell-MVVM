@@ -64,7 +64,7 @@ extension ProfileViewModel: UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         let item = items[section]
-        if item.isCollapsible {
+        guard item.isCollapsible else {
             return item.rowCount
         }
         if item.isCollapsed {
