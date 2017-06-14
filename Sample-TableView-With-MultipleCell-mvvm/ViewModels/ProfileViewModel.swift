@@ -132,12 +132,8 @@ extension ProfileViewModel: UITableViewDelegate {
         }
     }
 
-    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return items[section].sectionTitle
-    }
-
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        if let header = tableView.dequeueReusableHeaderFooterView(withIdentifier: ProfileHeaderView.identifier) as? ProfileHeaderView {
+        if let header = tableView.dequeueReusableHeaderFooterView(withIdentifier: ProfileHeaderView.identifier)  as? ProfileHeaderView {
             let item = items[section]
 
             header.item = item
