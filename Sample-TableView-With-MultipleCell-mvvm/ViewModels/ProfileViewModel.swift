@@ -158,6 +158,9 @@ extension ProfileViewModel: ProfileHeaderViewDelegate {
             item.isCollapsed = collapsed
             header.setCollapsed(collopsed: collapsed)
 
+            // items is of struct
+            items[section] = item
+
             // Adjust the number of the rows inside the section
             reloadSections?(section)
         }

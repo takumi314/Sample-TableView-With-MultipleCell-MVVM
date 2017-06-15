@@ -42,6 +42,7 @@ class ProfileHeaderView: UITableViewHeaderFooterView {
     }
 
     func setCollapsed(collopsed: Bool) {
+        arrowLabel?.rotate(collopsed ? 0.0 : .pi)
     }
 
 }
