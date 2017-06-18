@@ -1,0 +1,39 @@
+{
+    "data": {
+        "id": 1,
+        "fullName": "Kohey",
+        "photoURL": "tom",
+        "email": "hogehoge@gmail.com",
+        "about": "I like travelling along Tokyo!",
+        "friends": [
+                    {
+                    "name": "Ken",
+                    "photoURL": "finn"
+                    },
+                    {
+                    "name": "Tom",
+                    "photoURL": "becky"
+                    },
+                    {
+                    "name": "Sierra",
+                    "photoURL": "holm"
+                    }
+                    ],
+        "profileAttributes": [
+                              {
+                              "key": "Date of birth",
+                              "value": "November 30, 1835"
+                              },
+                              {
+                              "key": "Gender",
+                              "value": "male"
+                              },
+                              {
+                              "key": "Height",
+                              "value": "180"
+                              }
+                              ]
+    },
+    "error": 0,
+    "message": "Success"
+}
