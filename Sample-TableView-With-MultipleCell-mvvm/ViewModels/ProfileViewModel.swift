@@ -139,10 +139,14 @@ extension ProfileViewModel: UITableViewDelegate {
             header.item = item
             header.section = section
             header.delegete = self
+
+            header.contentView.backgroundColor = .white
+
             return header
         }
         return UIView()
     }
+
 }
 
 // MARK: ProfileHeaderViewDelegate
