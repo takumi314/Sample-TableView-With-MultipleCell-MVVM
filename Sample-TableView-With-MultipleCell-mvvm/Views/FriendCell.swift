@@ -28,7 +28,7 @@ class FriendCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
 
-        photoImageView?.layer.cornerRadius = 40
+        photoImageView?.layer.cornerRadius = 50
         photoImageView?.clipsToBounds = true
         photoImageView?.contentMode = .scaleAspectFit
         photoImageView?.backgroundColor = .lightGray
