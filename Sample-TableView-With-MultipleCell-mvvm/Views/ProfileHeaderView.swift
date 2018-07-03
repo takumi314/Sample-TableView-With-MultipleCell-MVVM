@@ -37,7 +37,7 @@ class ProfileHeaderView: UITableViewHeaderFooterView {
         addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(didTapHeader)))
     }
 
-    func didTapHeader() {
+    @objc func didTapHeader() {
         delegete?.toggleSection(header: self, section: section)
     }
 
