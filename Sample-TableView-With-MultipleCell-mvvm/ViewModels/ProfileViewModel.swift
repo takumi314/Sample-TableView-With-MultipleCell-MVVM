@@ -24,28 +24,26 @@ class ProfileViewModel: NSObject {
 
     override init() {
         super.init()
-        guard let data = dataFromFile("TestData"), let profile = Profile(data: data) else {
+        guard let data = dataFromFile("TestData") else {
             return
         }
 
-        if let name = profile.fullName, let photoURL = profile.photoURL {
-            let namePhoto = ProfileViewModelNamePhotoItem(name: name, photoURL: photoURL)
-            items.append(namePhoto)
+        guard let result = try? JSONDecoder().decode(Results.self, from: data) else {
+            return
         }
 
-        if let about = profile.about {
-            let about = ProfileViewModelAboutItem(about: about)
-            items.append(about)
-        }
+        let profile = result.data
+        let namePhoto = ProfileViewModelNamePhotoItem(name: profile.fullName, photoURL: profile.photoURL)
+        let about = ProfileViewModelAboutItem(about: profile.about)
+        let email = ProfileViewModelEmailItem(email: profile.email)
 
-        if let email = profile.email {
-            let email = ProfileViewModelEmailItem(email: email)
-            items.append(email)
-        }
+        items.append(namePhoto)
+        items.append(about)
+        items.append(email)
 
         let friends = profile.friends
         if !friends.isEmpty {
-            let friends = ProfileViewModeFriendsItem(friends: friends)
+            let friends = ProfileViewModeFriendsItem(friends: profile.friends)
             items.append(friends)
         }
 

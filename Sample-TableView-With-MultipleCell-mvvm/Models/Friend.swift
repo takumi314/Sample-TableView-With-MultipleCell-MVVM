@@ -8,12 +8,7 @@
 
 import Foundation
 
-struct Friend {
-    var name: String?
-    var photoURL: String?
-
-    init(json: [String: Any]) {
-        self.name = json["name"] as? String
-        self.photoURL = json["photoURL"] as? String
-    }
+struct Friend: Codable {
+    var name: String = ""
+    var photoURL: String = ""
 }

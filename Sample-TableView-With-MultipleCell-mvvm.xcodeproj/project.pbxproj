@@ -69,6 +69,28 @@
 		E16F522C1EE8597F00867C7E /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F522A1EE8597F00867C7E /* Attribute.swift */; };
 		E16F522F1EE85DCB00867C7E /* TestData.json in Resources */ = {isa = PBXBuildFile; fileRef = E16F522E1EE85DCB00867C7E /* TestData.json */; };
 		E16F52301EE85DCB00867C7E /* TestData.json in Resources */ = {isa = PBXBuildFile; fileRef = E16F522E1EE85DCB00867C7E /* TestData.json */; };
+		E1D4ED6120EBC0600030EAB7 /* ProfileViewModelItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1025EC51EEDAC0B00C998FE /* ProfileViewModelItem.swift */; };
+		E1D4ED6220EBC0610030EAB7 /* ProfileViewModelItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1025EC51EEDAC0B00C998FE /* ProfileViewModelItem.swift */; };
+		E1D4ED6320EBC0900030EAB7 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1025EC21EEDAC0B00C998FE /* ProfileViewModel.swift */; };
+		E1D4ED6420EBC0910030EAB7 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1025EC21EEDAC0B00C998FE /* ProfileViewModel.swift */; };
+		E1D4ED6520EBC0BE0030EAB7 /* ProfileViewModelEmailItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1025EC41EEDAC0B00C998FE /* ProfileViewModelEmailItem.swift */; };
+		E1D4ED6620EBC0C00030EAB7 /* ProfileViewModelEmailItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1025EC41EEDAC0B00C998FE /* ProfileViewModelEmailItem.swift */; };
+		E1D4ED6720EBC0DD0030EAB7 /* CellIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1025ECE1EEEDD2000C998FE /* CellIdentifiable.swift */; };
+		E1D4ED6820EBC0E70030EAB7 /* ProfileViewModelNamePhotoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1025EC61EEDAC0B00C998FE /* ProfileViewModelNamePhotoItem.swift */; };
+		E1D4ED6920EBC0E90030EAB7 /* ProfileViewModelNamePhotoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1025EC61EEDAC0B00C998FE /* ProfileViewModelNamePhotoItem.swift */; };
+		E1D4ED6A20EBC1030030EAB7 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F52241EE854E000867C7E /* Profile.swift */; };
+		E1D4ED6B20EBC10D0030EAB7 /* ProfileViewModelAboutItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1025EC31EEDAC0B00C998FE /* ProfileViewModelAboutItem.swift */; };
+		E1D4ED6C20EBC10D0030EAB7 /* ProfileViewModelAboutItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1025EC31EEDAC0B00C998FE /* ProfileViewModelAboutItem.swift */; };
+		E1D4ED6D20EBC1320030EAB7 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F52271EE8572F00867C7E /* Friend.swift */; };
+		E1D4ED6E20EBC1430030EAB7 /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F522A1EE8597F00867C7E /* Attribute.swift */; };
+		E1D4ED6F20EBC1660030EAB7 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1025EDB1EEEF98F00C998FE /* UIViewExtension.swift */; };
+		E1D4ED7020EBC1820030EAB7 /* ProfileViewModeFriendsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1025EC11EEDAC0B00C998FE /* ProfileViewModeFriendsItem.swift */; };
+		E1D4ED7120EBC1830030EAB7 /* ProfileViewModeFriendsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1025EC11EEDAC0B00C998FE /* ProfileViewModeFriendsItem.swift */; };
+		E1D4ED7220EBC1B10030EAB7 /* ProfileViewModeAttributeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1025EC01EEDAC0B00C998FE /* ProfileViewModeAttributeItem.swift */; };
+		E1D4ED7320EBC1B20030EAB7 /* ProfileViewModeAttributeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1025EC01EEDAC0B00C998FE /* ProfileViewModeAttributeItem.swift */; };
+		E1D4ED7520EBC5560030EAB7 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D4ED7420EBC5560030EAB7 /* Results.swift */; };
+		E1D4ED7620EBC5560030EAB7 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D4ED7420EBC5560030EAB7 /* Results.swift */; };
+		E1D4ED7720EBC5560030EAB7 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D4ED7420EBC5560030EAB7 /* Results.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +149,7 @@
 		E16F52271EE8572F00867C7E /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Friend.swift; path = Models/Friend.swift; sourceTree = "<group>"; };
 		E16F522A1EE8597F00867C7E /* Attribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Attribute.swift; path = Models/Attribute.swift; sourceTree = "<group>"; };
 		E16F522E1EE85DCB00867C7E /* TestData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = TestData.json; path = Models/TestData.json; sourceTree = "<group>"; };
+		E1D4ED7420EBC5560030EAB7 /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Results.swift; path = Models/Results.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,6 +276,7 @@
 		E16F52231EE8547200867C7E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E1D4ED7420EBC5560030EAB7 /* Results.swift */,
 				E16F52241EE854E000867C7E /* Profile.swift */,
 				E16F52271EE8572F00867C7E /* Friend.swift */,
 				E16F522A1EE8597F00867C7E /* Attribute.swift */,
@@ -333,23 +357,26 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Kohey;
 				TargetAttributes = {
 					E16F51F11EE84E5400867C7E = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = 9D8UR7H9D4;
+						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
 					E16F52051EE84E5400867C7E = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = 9D8UR7H9D4;
+						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 						TestTargetID = E16F51F11EE84E5400867C7E;
 					};
 					E16F52101EE84E5400867C7E = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = 9D8UR7H9D4;
+						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 						TestTargetID = E16F51F11EE84E5400867C7E;
 					};
@@ -430,6 +457,7 @@
 				E1025EC81EEDAC0B00C998FE /* ProfileViewModeFriendsItem.swift in Sources */,
 				E1025ECF1EEEDD2000C998FE /* CellIdentifiable.swift in Sources */,
 				E1025ECC1EEDAC0B00C998FE /* ProfileViewModelItem.swift in Sources */,
+				E1D4ED7520EBC5560030EAB7 /* Results.swift in Sources */,
 				E16F522B1EE8597F00867C7E /* Attribute.swift in Sources */,
 				E1025EAA1EED9F3200C998FE /* NamePhotoCell.swift in Sources */,
 				E1025EB21EED9F5D00C998FE /* EmailCell.swift in Sources */,
@@ -454,16 +482,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1D4ED6120EBC0600030EAB7 /* ProfileViewModelItem.swift in Sources */,
 				E16F52291EE8572F00867C7E /* Friend.swift in Sources */,
 				E16F520B1EE84E5400867C7E /* Sample_TableView_With_MultipleCell_mvvmTests.swift in Sources */,
+				E1D4ED7220EBC1B10030EAB7 /* ProfileViewModeAttributeItem.swift in Sources */,
 				E1025ED51EEEE9FC00C998FE /* ProfileHeaderView.swift in Sources */,
 				E1025EAB1EED9F3200C998FE /* NamePhotoCell.swift in Sources */,
 				E1025EB71EED9F8D00C998FE /* FriendCell.swift in Sources */,
+				E1D4ED7020EBC1820030EAB7 /* ProfileViewModeFriendsItem.swift in Sources */,
+				E1D4ED6B20EBC10D0030EAB7 /* ProfileViewModelAboutItem.swift in Sources */,
+				E1D4ED6320EBC0900030EAB7 /* ProfileViewModel.swift in Sources */,
 				E1025EB31EED9F5D00C998FE /* EmailCell.swift in Sources */,
+				E1D4ED6520EBC0BE0030EAB7 /* ProfileViewModelEmailItem.swift in Sources */,
 				E1025EDD1EEEF98F00C998FE /* UIViewExtension.swift in Sources */,
 				E1025ED01EEEDD2000C998FE /* CellIdentifiable.swift in Sources */,
+				E1D4ED7620EBC5560030EAB7 /* Results.swift in Sources */,
 				E16F522C1EE8597F00867C7E /* Attribute.swift in Sources */,
 				E16F52261EE854E000867C7E /* Profile.swift in Sources */,
+				E1D4ED6820EBC0E70030EAB7 /* ProfileViewModelNamePhotoItem.swift in Sources */,
 				E1025EBB1EED9FA400C998FE /* AttributeCell.swift in Sources */,
 				E1025EAF1EED9F4900C998FE /* AboutCell.swift in Sources */,
 			);
@@ -473,12 +509,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1D4ED6720EBC0DD0030EAB7 /* CellIdentifiable.swift in Sources */,
+				E1D4ED6920EBC0E90030EAB7 /* ProfileViewModelNamePhotoItem.swift in Sources */,
 				E16F52161EE84E5400867C7E /* Sample_TableView_With_MultipleCell_mvvmUITests.swift in Sources */,
+				E1D4ED7320EBC1B20030EAB7 /* ProfileViewModeAttributeItem.swift in Sources */,
+				E1D4ED6A20EBC1030030EAB7 /* Profile.swift in Sources */,
+				E1D4ED6220EBC0610030EAB7 /* ProfileViewModelItem.swift in Sources */,
 				E1025EAC1EED9F3200C998FE /* NamePhotoCell.swift in Sources */,
+				E1D4ED7120EBC1830030EAB7 /* ProfileViewModeFriendsItem.swift in Sources */,
+				E1D4ED6420EBC0910030EAB7 /* ProfileViewModel.swift in Sources */,
 				E1025EB41EED9F5D00C998FE /* EmailCell.swift in Sources */,
+				E1D4ED6F20EBC1660030EAB7 /* UIViewExtension.swift in Sources */,
 				E1025EB01EED9F4900C998FE /* AboutCell.swift in Sources */,
+				E1D4ED6C20EBC10D0030EAB7 /* ProfileViewModelAboutItem.swift in Sources */,
 				E1025ED61EEEE9FC00C998FE /* ProfileHeaderView.swift in Sources */,
+				E1D4ED7720EBC5560030EAB7 /* Results.swift in Sources */,
 				E1025EBC1EED9FA400C998FE /* AttributeCell.swift in Sources */,
+				E1D4ED6D20EBC1320030EAB7 /* Friend.swift in Sources */,
+				E1D4ED6620EBC0C00030EAB7 /* ProfileViewModelEmailItem.swift in Sources */,
+				E1D4ED6E20EBC1430030EAB7 /* Attribute.swift in Sources */,
 				E1025EB81EED9F8D00C998FE /* FriendCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -528,15 +577,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -559,7 +616,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -578,15 +635,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -603,7 +668,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -620,7 +685,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.kohey.Sample-TableView-With-MultipleCell-mvvm";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -633,7 +699,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.kohey.Sample-TableView-With-MultipleCell-mvvm";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -647,7 +714,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.kohey.Sample-TableView-With-MultipleCell-mvvmTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sample-TableView-With-MultipleCell-mvvm.app/Sample-TableView-With-MultipleCell-mvvm";
 			};
 			name = Debug;
@@ -662,7 +730,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.kohey.Sample-TableView-With-MultipleCell-mvvmTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sample-TableView-With-MultipleCell-mvvm.app/Sample-TableView-With-MultipleCell-mvvm";
 			};
 			name = Release;
@@ -676,7 +745,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.kohey.Sample-TableView-With-MultipleCell-mvvmUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = "Sample-TableView-With-MultipleCell-mvvm";
 			};
 			name = Debug;
@@ -690,7 +760,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.kohey.Sample-TableView-With-MultipleCell-mvvmUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = "Sample-TableView-With-MultipleCell-mvvm";
 			};
 			name = Release;
