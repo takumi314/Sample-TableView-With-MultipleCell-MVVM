@@ -88,6 +88,9 @@
 		E1D4ED7120EBC1830030EAB7 /* ProfileViewModeFriendsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1025EC11EEDAC0B00C998FE /* ProfileViewModeFriendsItem.swift */; };
 		E1D4ED7220EBC1B10030EAB7 /* ProfileViewModeAttributeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1025EC01EEDAC0B00C998FE /* ProfileViewModeAttributeItem.swift */; };
 		E1D4ED7320EBC1B20030EAB7 /* ProfileViewModeAttributeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1025EC01EEDAC0B00C998FE /* ProfileViewModeAttributeItem.swift */; };
+		E1D4ED7520EBC5560030EAB7 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D4ED7420EBC5560030EAB7 /* Results.swift */; };
+		E1D4ED7620EBC5560030EAB7 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D4ED7420EBC5560030EAB7 /* Results.swift */; };
+		E1D4ED7720EBC5560030EAB7 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D4ED7420EBC5560030EAB7 /* Results.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -146,6 +149,7 @@
 		E16F52271EE8572F00867C7E /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Friend.swift; path = Models/Friend.swift; sourceTree = "<group>"; };
 		E16F522A1EE8597F00867C7E /* Attribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Attribute.swift; path = Models/Attribute.swift; sourceTree = "<group>"; };
 		E16F522E1EE85DCB00867C7E /* TestData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = TestData.json; path = Models/TestData.json; sourceTree = "<group>"; };
+		E1D4ED7420EBC5560030EAB7 /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Results.swift; path = Models/Results.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,6 +276,7 @@
 		E16F52231EE8547200867C7E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E1D4ED7420EBC5560030EAB7 /* Results.swift */,
 				E16F52241EE854E000867C7E /* Profile.swift */,
 				E16F52271EE8572F00867C7E /* Friend.swift */,
 				E16F522A1EE8597F00867C7E /* Attribute.swift */,
@@ -452,6 +457,7 @@
 				E1025EC81EEDAC0B00C998FE /* ProfileViewModeFriendsItem.swift in Sources */,
 				E1025ECF1EEEDD2000C998FE /* CellIdentifiable.swift in Sources */,
 				E1025ECC1EEDAC0B00C998FE /* ProfileViewModelItem.swift in Sources */,
+				E1D4ED7520EBC5560030EAB7 /* Results.swift in Sources */,
 				E16F522B1EE8597F00867C7E /* Attribute.swift in Sources */,
 				E1025EAA1EED9F3200C998FE /* NamePhotoCell.swift in Sources */,
 				E1025EB21EED9F5D00C998FE /* EmailCell.swift in Sources */,
@@ -490,6 +496,7 @@
 				E1D4ED6520EBC0BE0030EAB7 /* ProfileViewModelEmailItem.swift in Sources */,
 				E1025EDD1EEEF98F00C998FE /* UIViewExtension.swift in Sources */,
 				E1025ED01EEEDD2000C998FE /* CellIdentifiable.swift in Sources */,
+				E1D4ED7620EBC5560030EAB7 /* Results.swift in Sources */,
 				E16F522C1EE8597F00867C7E /* Attribute.swift in Sources */,
 				E16F52261EE854E000867C7E /* Profile.swift in Sources */,
 				E1D4ED6820EBC0E70030EAB7 /* ProfileViewModelNamePhotoItem.swift in Sources */,
@@ -516,6 +523,7 @@
 				E1025EB01EED9F4900C998FE /* AboutCell.swift in Sources */,
 				E1D4ED6C20EBC10D0030EAB7 /* ProfileViewModelAboutItem.swift in Sources */,
 				E1025ED61EEEE9FC00C998FE /* ProfileHeaderView.swift in Sources */,
+				E1D4ED7720EBC5560030EAB7 /* Results.swift in Sources */,
 				E1025EBC1EED9FA400C998FE /* AttributeCell.swift in Sources */,
 				E1D4ED6D20EBC1320030EAB7 /* Friend.swift in Sources */,
 				E1D4ED6620EBC0C00030EAB7 /* ProfileViewModelEmailItem.swift in Sources */,

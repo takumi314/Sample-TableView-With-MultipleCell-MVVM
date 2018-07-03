@@ -17,10 +17,8 @@ class FriendCell: UITableViewCell {
             guard let item = item else {
                 return
             }
-            if let pictureUrl = item.photoURL {
-                photoImageView?.image = UIImage(named: pictureUrl)
-            }
 
+            photoImageView?.image = UIImage(named: item.photoURL)
             nameLabel?.text = item.name
         }
     }
